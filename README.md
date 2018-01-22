@@ -1,6 +1,6 @@
 # vue-anychart
 
-> A Vue.js project
+> The component of Vue 2.0 for AnyChart
 
 ## Build Setup
 
