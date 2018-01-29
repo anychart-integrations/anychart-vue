@@ -34,6 +34,8 @@
 </template>
 
 <script>
+/* eslint-disable */
+
   import VueAnychart from './components/VueAnychart'
   import * as data from './data/data'
   import Anychart from 'anychart'
@@ -82,20 +84,20 @@
       },
       updatePieData() {
         this.$refs.pieChart.chart.data([
-          ["Product A", 4755],
-          ["Product B", 5205],
-          ["Product C", 1504]
+          ['Product A', 4755],
+          ['Product B', 5205],
+          ['Product C', 1504]
         ]);
 
         this.pieDataIsModified = true;
       },
       getRandomData() {
         return [
-          {"x": "January", "value": this.getRandomInt(1, 15) * 1000},
-          {"x": "February", "value": this.getRandomInt(3, 18) * 1000},
-          {"x": "March", "value": this.getRandomInt(2, 15) * 1000},
-          {"x": "April", "value": this.getRandomInt(1, 18) * 1000},
-          {"x": "May", "value": this.getRandomInt(3, 18) * 1000}
+          {'x': 'January', 'value': this.getRandomInt(1, 15) * 1000},
+          {'x': 'February', 'value': this.getRandomInt(3, 18) * 1000},
+          {'x': 'March', 'value': this.getRandomInt(2, 15) * 1000},
+          {'x': 'April', 'value': this.getRandomInt(1, 18) * 1000},
+          {'x': 'May', 'value': this.getRandomInt(3, 18) * 1000}
         ]
       },
       getRandomInt(min, max) {

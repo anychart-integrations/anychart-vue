@@ -3,6 +3,8 @@
 </template>
 
 <script>
+/* eslint-disable */
+
   import Anychart from 'anychart'
 
   export default {
@@ -17,6 +19,8 @@
       if (!this.chart && this.options) {
         this.init();
       }
+
+      window.addEventListener('resize', this.handleWindowResize);
     },
     methods: {
       removeSeries() {
@@ -29,7 +33,7 @@
           this.chart.removeAllSeries();
         }
       },
-      addSeries (data) {
+      addSeries(data) {
         this.delegateMethod('addSeries', data);
       },
       delegateMethod(name, data) {
@@ -47,6 +51,9 @@
           this.chart.container(this.$el)
             .draw();
         }
+      },
+      handleWindowResize(event) {
+        console.log(event.currentTarget.innerWidth);
       }
     },
     watch: {
