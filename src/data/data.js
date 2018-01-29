@@ -11,7 +11,7 @@ export const PieData = {
     ],
     'title': 'Create a Pie Chart'
   }
-}
+};
 
 // line chart data
 export const LineData = {
@@ -28,7 +28,7 @@ export const LineData = {
     }],
     'title': 'Create a Line chart'
   }
-}
+};
 
 // area chart data
 export const AreaData = {
@@ -45,7 +45,7 @@ export const AreaData = {
     }],
     'title': 'Create a Area chart'
   }
-}
+};
 
 export const CombineData = {
   'chart': {
@@ -103,4 +103,4 @@ export const CombineData = {
     }],
     'type': 'column'
   }
-}
+};

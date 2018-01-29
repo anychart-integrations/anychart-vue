@@ -19,8 +19,6 @@
       if (!this.chart && this.options) {
         this.init();
       }
-
-      window.addEventListener('resize', this.handleWindowResize);
     },
     methods: {
       removeSeries() {
@@ -51,9 +49,6 @@
           this.chart.container(this.$el)
             .draw();
         }
-      },
-      handleWindowResize(event) {
-        console.log(event.currentTarget.innerWidth);
       }
     },
     watch: {
