@@ -1,12 +1,10 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
 # Anychart Vue integration
 
-This example shows how to use Anychart with Vue.
-
-> The component of Vue 2.0 for AnyChart
+This example shows how to use Anychart with Vue. AnyChart is a flexible JavaScript (HTML5, SVG, VML) charting framework that fits any solution in need of data visualization.
 
 ## Getting started
-To run this sample:
+To run this example, clone or download the repository, then install all requirements and run with npm:
 
 Clone the repository from github.com:
 ```
@@ -23,7 +21,7 @@ Install all project requirements:
  npm install
  ```
 
-Since that, the demo can be launched in your browser:
+After that, the demo can be launched in your browser:
  ```
  npm run start
  ```
@@ -54,7 +52,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 * [Vue](https://vuejs.org/)
 
 ## License
-AnyChart Vue integration sample includes two parts:
+The AnyChart Vue integration sample includes two parts:
 - code of the integration sample that allows to use Javascript library (in this case, AnyChart) with Vue Framework.
 You can use, edit, modify it, use it with other Javascript libraries
 without any restrictions. It is released under [Apache 2.0 License](LICENSE).
